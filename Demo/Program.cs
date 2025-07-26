@@ -52,12 +52,28 @@
             //b = a.GetValueOrDefault();
             #endregion
             #region Nullable reference types
-//#nullable disable
-//            string name01 = null;
-//            Console.WriteLine(name01);
-//#nullable enable
-//            string? name02 = null;
-//            Console.WriteLine(name02);
+            //#nullable disable
+            //            string name01 = null;
+            //            Console.WriteLine(name01);
+            //#nullable enable
+            //            string? name02 = null;
+            //            Console.WriteLine(name02);
+            #endregion
+            #region Null propagation
+            //int[] numbers = null;
+            //int arrayLength =numbers?.Length ?? 0;
+            //Console.WriteLine(arrayLength);
+            //for (int i = 0; i < numbers?.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+            //if (numbers is not null)
+            //{
+            //    for (int i = 0; i < numbers.Length; i++)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
+            //}
             #endregion
         }
     }
