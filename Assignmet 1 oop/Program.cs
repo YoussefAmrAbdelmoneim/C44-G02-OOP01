@@ -61,6 +61,24 @@
             //permission |= Permissions.Execute;
             //Console.WriteLine(permission);
             #endregion
+            #region Q4
+            //Colors color;
+            //bool isParsed;
+            //do
+            //{
+            //    Console.Write("Enter color name: ");
+            //   isParsed = Enum.TryParse(Console.ReadLine(),true,out color );
+            //}
+            //while (!isParsed);
+            //if (color == Colors.Red || color == Colors.Blue)
+            //{
+            //    Console.WriteLine($"{color} is a primary color");
+            //}
+            //else if (color == Colors.Green)
+            //{
+            //    Console.WriteLine($"{color} is not a primary color");
+            //}
+            #endregion
         }
     }
 }
