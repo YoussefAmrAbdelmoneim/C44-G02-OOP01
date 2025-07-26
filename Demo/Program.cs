@@ -75,6 +75,13 @@
             //    }
             //}
             #endregion
+            #region Access Modifiers [Private - Internal - Public]
+            //TypeA typeA = new TypeA();
+            ////typeA.X = 1;// Invalid  // X is private [assessable within its Scope Only ]
+            ////typeA.Y = 1; // Invalid // Y is Internal [assessable within its Scope and in Same Project Only] 
+            //typeA.Z = 1; // Valid // Z is Public [assessable within its Scope , in Same Project and outside project]
+            #endregion
+
         }
     }
 }
