@@ -51,6 +51,14 @@
             //b = a ?? 0;
             //b = a.GetValueOrDefault();
             #endregion
+            #region Nullable reference types
+//#nullable disable
+//            string name01 = null;
+//            Console.WriteLine(name01);
+//#nullable enable
+//            string? name02 = null;
+//            Console.WriteLine(name02);
+            #endregion
         }
     }
 }
