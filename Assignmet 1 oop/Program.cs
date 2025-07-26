@@ -44,6 +44,23 @@
             //     Console.WriteLine("February");
             //}
             #endregion
+            #region Q3
+            //Permissions permission = Permissions.Read;
+            //permission |= Permissions.Write;
+            //Console.WriteLine(permission);
+            //if ((permission & Permissions.Write) == Permissions.Write)
+            //{
+            //    Console.WriteLine("User has Write permission.");
+            //}
+            //permission ^= Permissions.Write;
+            //Console.WriteLine(permission);
+            //if ((permission & Permissions.Write) != Permissions.Write)
+            //{
+            //    Console.WriteLine("Write permission is removed.");
+            //}
+            //permission |= Permissions.Execute;
+            //Console.WriteLine(permission);
+            #endregion
         }
     }
 }
